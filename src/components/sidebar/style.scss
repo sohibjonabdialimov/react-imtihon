@@ -1,0 +1,39 @@
+.sidebar{
+  width: 6.7%;
+  background-color: #373B53;
+  height: 100vh; 
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  &__logo{
+
+    img{
+      width: 100%;
+    }
+  }
+  &__user{
+    width: 100%;
+    border-top: 1px solid #6e6e6e;
+    padding: 24px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+
+    img{
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    ion-icon{
+      font-size: 45px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
