@@ -9,6 +9,10 @@
     align-items: center;
     gap: 23px;
     cursor: pointer;
+    
+    &:hover{
+      opacity: 0.7;
+    }
 
     ion-icon {
       color: #7c5dfa;
@@ -55,13 +59,22 @@
         background: #f9fafe;
         color: #7e88c3;
       }
+      button:first-child:hover{
+        opacity: 0.7;
+      }
       button:nth-child(2) {
         background: #ec5757;
         color: #fff;
       }
+      button:nth-child(2):hover{
+        opacity: 0.7;
+      }
       button:nth-child(3) {
         background: #7c5dfa;
         color: #fff;
+      }
+      button:nth-child(3):hover{
+        opacity: 0.7;
       }
     }
     &__status {
