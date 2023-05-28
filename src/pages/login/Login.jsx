@@ -4,10 +4,8 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { tokenActions } from "../../store/token/token.slice";
 import { useNavigate } from "react-router-dom";
-import { IdContext } from "../../context";
 
 export const Login = () => {
-  const {id, setId} = useContext(IdContext);
   const emailRef = useRef();
   const passwordRef = useRef();
   const navigate = useNavigate();
